@@ -53,7 +53,7 @@
             // chooseTimesToolStripMenuItem
             // 
             this.chooseTimesToolStripMenuItem.Name = "chooseTimesToolStripMenuItem";
-            this.chooseTimesToolStripMenuItem.Size = new System.Drawing.Size(112, 34);
+            this.chooseTimesToolStripMenuItem.Size = new System.Drawing.Size(112, 26);
             this.chooseTimesToolStripMenuItem.Text = "Choose times";
             // 
             // tableLayoutPanel1
@@ -75,7 +75,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(800, 206);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(800, 208);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
             // ModelNameLabel
@@ -94,19 +94,20 @@
             // StartStopBtn
             // 
             this.StartStopBtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.StartStopBtn.Location = new System.Drawing.Point(225, 159);
+            this.StartStopBtn.Location = new System.Drawing.Point(225, 161);
             this.StartStopBtn.Name = "StartStopBtn";
             this.StartStopBtn.Size = new System.Drawing.Size(349, 44);
             this.StartStopBtn.TabIndex = 1;
             this.StartStopBtn.Text = "Start";
             this.StartStopBtn.UseVisualStyleBackColor = true;
+            this.StartStopBtn.Click += new System.EventHandler(this.StartStopBtn_Click);
             // 
             // TimerLabel
             // 
             this.TimerLabel.AutoSize = true;
             this.TimerLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TimerLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.TimerLabel.Location = new System.Drawing.Point(225, 58);
+            this.TimerLabel.Location = new System.Drawing.Point(225, 60);
             this.TimerLabel.Margin = new System.Windows.Forms.Padding(3);
             this.TimerLabel.Name = "TimerLabel";
             this.TimerLabel.Size = new System.Drawing.Size(349, 95);
@@ -118,11 +119,11 @@
             // 
             this.ModelLabel.AutoSize = true;
             this.ModelLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ModelLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.ModelLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
             this.ModelLabel.Location = new System.Drawing.Point(225, 34);
             this.ModelLabel.Margin = new System.Windows.Forms.Padding(3);
             this.ModelLabel.Name = "ModelLabel";
-            this.ModelLabel.Size = new System.Drawing.Size(349, 18);
+            this.ModelLabel.Size = new System.Drawing.Size(349, 20);
             this.ModelLabel.TabIndex = 3;
             this.ModelLabel.Text = "label2";
             this.ModelLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
